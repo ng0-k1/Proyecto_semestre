@@ -1,0 +1,697 @@
+{
+	"info": {
+		"_postman_id": "d351f46a-6e90-47fa-aa83-ce6671f09c3c",
+		"name": "RayitoBase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mostrar imagen noticia por url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/noticias/imgNoticia/scs.jgp",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"noticias",
+						"imgNoticia",
+						"scs.jgp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar libro Prueba Back",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0NTUwNzM5LCJleHAiOjE2MDQ1NTQzMzl9.gOfSDi8ZsfEH5ErfqWLiftSdQtBXr6gvoa_Je__L874",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/uploadYo/5fa233b1c34edc3ac42c3481/swa.jpg",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadYo",
+						"5fa233b1c34edc3ac42c3481",
+						"swa.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtener tecnologia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tecnologia",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tecnologia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar contacto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/contacto/5fa2176a758a24321c13c1b3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"contacto",
+						"5fa2176a758a24321c13c1b3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar imagenYo por url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/noticias/imgYo/swa.jgp",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"noticias",
+						"imgYo",
+						"swa.jgp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar LibroYo por URL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/uploadYo/Dario/Prueba_RB.pdf",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadYo",
+						"Dario",
+						"Prueba_RB.pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener sobre Nosotros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/sobreMi",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"sobreMi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subir imagen Libro",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"type": "text",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0ODAzNDA0LCJleHAiOjE2MDQ4MDcwMDR9.fXwVevDQBp_GovC5HaJXkRhu4XA3_630Xblo-403DXA"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "img",
+							"type": "file",
+							"src": "/C:/Users/Sergio/Desktop/Universidad/Old.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/noticias/upload2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"noticias",
+						"upload2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear tecnologia",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0Nzg2NTM3LCJleHAiOjE2MDQ3OTAxMzd9.po9XleVTFHKe2yyHTEibn2yLIceeiOJhSuaAMX0Otp8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "icono",
+							"value": "fab fa-accessible-icon fa-lg mr-3",
+							"type": "text"
+						},
+						{
+							"key": "tecnologia",
+							"value": "Alcaldia de fusagasuga",
+							"type": "text"
+						},
+						{
+							"key": "experiencia",
+							"value": "Institucion",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/tecnologia",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tecnologia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear sobre Nosotros",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0NzgwODY1LCJleHAiOjE2MDQ3ODQ0NjV9.dKA2AShFbfvdqHEjHFg7q6cWpbrU4fcFj6pIGPIjuyU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "texto1",
+							"value": "a",
+							"type": "text"
+						},
+						{
+							"key": "texto2",
+							"value": "s",
+							"type": "text"
+						},
+						{
+							"key": "texto3",
+							"value": "f",
+							"type": "text"
+						},
+						{
+							"key": "texto4",
+							"value": "g",
+							"type": "text"
+						},
+						{
+							"key": "texto5",
+							"value": "h",
+							"type": "text"
+						},
+						{
+							"key": "texto6",
+							"value": "n",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/sobreRayito",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"sobreRayito"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Rayito",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/usuario/entrar",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuario",
+						"entrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "imgYo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0ODAzNDA0LCJleHAiOjE2MDQ4MDcwMDR9.fXwVevDQBp_GovC5HaJXkRhu4XA3_630Xblo-403DXA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "imgYo",
+							"type": "file",
+							"src": "/C:/Users/Sergio/Desktop/swa.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/noticias/upload1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"noticias",
+						"upload1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear contacto",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTFjYmIxMGYxMDQ4MmM1Yzg5OWI1NSIsIm5vbWJyZSI6IkJlbml0byIsInBhc3N3b3JkIjoiJDJhJDE1JGhwVUVHTmouMGxhSDM5M2owZ2JDQS5mRGt5NURWYWVVbml3NmlSQkJaL2toS1NiejdPVnJXIn0sImlhdCI6MTYwNDQ0MzMxNiwiZXhwIjoxNjA0NDQzMzE3fQ.lZnJOmrY-aqM65oDLkYYkY-aAFJJPTzht1pu3OEuWiI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "Pedro@chontaduro.com",
+							"type": "text"
+						},
+						{
+							"key": "mensaje",
+							"value": "hola",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/contacto",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"contacto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar libro Rayito",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0NTUwNzM5LCJleHAiOjE2MDQ1NTQzMzl9.gOfSDi8ZsfEH5ErfqWLiftSdQtBXr6gvoa_Je__L874",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "lib",
+							"type": "file",
+							"src": "/C:/Users/Sergio/Desktop/Prueba_RB.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/uploadYo/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadYo",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Rayito",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/usuario/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuario",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subir libro (crear)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYjAzMjAzYmUyNGIwMDg4MGM1Yjc3MCIsIm5vbWJyZSI6IkZlZGVyaWNhIiwicGFzc3dvcmQiOiIkMmEkMTAkdWplcVBzZWUyeTdESFFseUNJMml3dTR1VkJmenU5emt4Wm9uNTViOGt6ektOdjRaamtkU20ifSwiaWF0IjoxNjA1MzgyNjY3LCJleHAiOjE2MDUzODYyNjd9.KKHtNRq01Woryaylh8BXoBapOeES5SNLIzRbQtXMDxs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "titulo",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "Subtitulo",
+							"value": "13123",
+							"type": "text"
+						},
+						{
+							"key": "autor",
+							"value": "ffg312dassda",
+							"type": "text"
+						},
+						{
+							"key": "texto1",
+							"value": "ggg231123dasqewq",
+							"type": "text"
+						},
+						{
+							"key": "texto2",
+							"value": "ggg213123eqwrqw",
+							"type": "text"
+						},
+						{
+							"key": "texto3",
+							"value": "hhhasdasweqwe",
+							"type": "text"
+						},
+						{
+							"key": "texto4",
+							"value": "fcs232dwqdq",
+							"type": "text"
+						},
+						{
+							"key": "texto5",
+							"value": "ssaadswdqw",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/noticias/Vc/Dc",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"noticias",
+						"Vc",
+						"Dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actualizar tecnologia",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0Nzg4OTIxLCJleHAiOjE2MDQ3OTI1MjF9.tKZcMS-EFa0E1744fvT7yGxQg-iUXHE7EkT7mKpTQMs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "icono",
+							"value": "ser",
+							"type": "text"
+						},
+						{
+							"key": "tecnologia",
+							"value": "mongius",
+							"type": "text"
+						},
+						{
+							"key": "experiencia",
+							"value": "libre",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/tecnologia/update/5fa71ce41130823ad8dbe5d1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tecnologia",
+						"update",
+						"5fa71ce41130823ad8dbe5d1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar sobre Nosostros",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0NzgwODY1LCJleHAiOjE2MDQ3ODQ0NjV9.dKA2AShFbfvdqHEjHFg7q6cWpbrU4fcFj6pIGPIjuyU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "texto1",
+							"value": "Cambio completo",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/sobreRayito/update/5fa70389349faa3a643ab945",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"sobreRayito",
+						"update",
+						"5fa70389349faa3a643ab945"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subir archivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "miToken",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmYTBkNDFiNmVkM2UwMDI1YzcwODJlMCIsIm5vbWJyZSI6IkRhcmlvIiwicGFzc3dvcmQiOiIkMmEkMTUkYnExSjdmS1phM1N5LmNKSDdQU0lWdUpHYklkRWtLenFBeEpxYS5Lby9mRDZ6RUs2UU5qUzYifSwiaWF0IjoxNjA0NDY1Mzk3LCJleHAiOjE2MDQ0Njg5OTd9.oDN_1JOcTBOLsAToZIUmIZDOjQi9snLpJA2ubARcQfo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "lib",
+							"type": "file",
+							"src": "/C:/Users/Sergio/Desktop/swa.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/uploadYo",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadYo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener libros paginados",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "localhost:3000/noticias/?pagina=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"noticias",
+						""
+					],
+					"query": [
+						{
+							"key": "pagina",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

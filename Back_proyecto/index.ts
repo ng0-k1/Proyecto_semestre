@@ -41,7 +41,8 @@ server.app.use('/noticias', noticiasRutas);
 let mongoDB: string;
 
 if (process.env.NODE_ENV === 'production') {
-    mongoDB = 'mongodb+srv://usuario:contraseña@cluster0-d6hzk.mongodb.net/FedeDJBase'
+    mongoDB = 'mongodb://localhost:27017/FedeDJBase'
+    //mongoDB = 'mongodb+srv://usuario:contraseña@cluster0-d6hzk.mongodb.net/FedeDJBase'
 } else {
     mongoDB = 'mongodb://localhost:27017/FedeDJBase'
 }

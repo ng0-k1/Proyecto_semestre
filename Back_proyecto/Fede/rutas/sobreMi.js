@@ -16,7 +16,7 @@ const sobreMiRutas = express_1.Router();
 // Crear sobreMí
 sobreMiRutas.post('/', autentificacion_1.verificarToken, (req, res) => {
     const body = req.body;
-    body.titulo = 'Federica Daniela Jiménez';
+    body.titulo = 'Rayito Bibliografico';
     sobreMi_1.SobreMi.create(body).then(sobreMiDB => {
         res.json({
             ok: true,

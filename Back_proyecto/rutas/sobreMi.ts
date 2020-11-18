@@ -9,7 +9,7 @@ const sobreMiRutas = Router();
 sobreMiRutas.post('/', verificarToken, (req: any, res: Response) => {
 
     const body = req.body;
-    body.titulo = 'Federica Daniela Jiménez'
+    body.titulo = 'Rayito Bibliografico'
 
     SobreMi.create(body).then(sobreMiDB => {
         res.json({

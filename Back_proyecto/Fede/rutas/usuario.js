@@ -56,7 +56,7 @@ usuarioRutas.post('/entrar', (req, res) => {
         else {
             return res.json({
                 ok: false,
-                mensaje: 'Invalid data'
+                mensaje: 'Error con el token'
             });
         }
     });
