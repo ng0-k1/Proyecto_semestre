@@ -1,0 +1,12 @@
+npm install @types/express -D
+npm i jsonwebtoken
+npm i mongoose 
+tsc -w
+tsc -i
+npm i express
+npm i cors
+npm i express-fileupload  
+npm audit   
+npm install --save-dev karma@5.2.3 
+npm install --save-dev protractor@7.0.0
+npm i body-parser 

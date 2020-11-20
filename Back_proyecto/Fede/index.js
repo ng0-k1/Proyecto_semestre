@@ -35,12 +35,13 @@ server.app.use('/noticias', noticias_1.default);
 // Conectar Base de Datos
 let mongoDB;
 if (process.env.NODE_ENV === 'production') {
-    mongoDB = 'mongodb+srv://moro:UF0Mzk3RMgjLl2qr@cluster0-d6hzk.mongodb.net/FedeDJBase';
+    mongoDB = 'mongodb://localhost:27017/FedeDJBase';
+    //mongoDB = 'mongodb+srv://usuario:contraseña@cluster0-d6hzk.mongodb.net/FedeDJBase'
 }
 else {
     mongoDB = 'mongodb://localhost:27017/FedeDJBase';
 }
-mongoose_1.default.connect('mongodb+srv://moro:UF0Mzk3RMgjLl2qr@cluster0-d6hzk.mongodb.net/FedeDJBase', { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false }, (err) => {
+mongoose_1.default.connect(mongoDB, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false }, (err) => {
     if (err)
         throw "err";
     console.log('Base de datos ONLINE');

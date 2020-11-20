@@ -6,8 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 class Token {
     // 1h = 1 hora; 1d = 1 día
-    constructor() {
-    }
+    constructor() { }
     static getToken(payload) {
         return jsonwebtoken_1.default.sign({
             usuario: payload

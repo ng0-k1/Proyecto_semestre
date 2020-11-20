@@ -4,7 +4,7 @@
     <h4>
       <span class="badge badge-warning">
         <i class="fas fa-plus-circle">&nbsp;
-          CREAR NOTICIA
+          SUBIR LIBRO
         </i>
       </span>
     </h4>
@@ -15,14 +15,14 @@
       <div class="container48">
         <button *ngIf="mostrarNoticia" (click)="ocultarBoton()" type="button"
           class="btn btn-warning btn-block font-weight-bold rounded-0 py-2">
-          CREAR NOTICIA
+          SUBIR LIBRO 
         </button>
       </div>
 
       <div *ngIf="!mostrarNoticia" class="form-group">
         <h5 *ngIf="mostrarImagenNoticia">
           <span class="badge badge-warning text-uppercase">
-            Imagen Noticia
+            Imagen libro
           </span>
         </h5>
         <input (change)="seleccionImgNoti($event.target.files[0])" type="file" #imgNoti
@@ -30,7 +30,7 @@
         <button *ngIf="!mostrarImagenNoticia" (click)="imgNoti.click()" type="button"
           class="btn btn-outline-warning btn-lg mt-3">
           <i class="fas fa-upload mr-2"></i>
-          <span class="badge badge-warning mb-1">Selecciona una imagen para la noticia</span>
+          <span class="badge badge-warning mb-1">Selecciona una imagen para el libro</span>
         </button>
         <img *ngIf="mostrarImagenNoticia" (click)="imgNoti.click()" [src]="imagenSel1"
           class="img-fluid tamanoMiniYo45 mt-2">
@@ -60,7 +60,7 @@
 
       <form *ngIf="mostrarFormNoticia" (ngSubmit)="crearNoticia(f)" #f="ngForm" autocomplete="off">
         <div class="form-group row text-center mt-4 animated fadeInUp">
-          <label for="inputTitulo" class="col-sm-2 col-form-label">Títtulo</label>
+          <label for="inputTitulo" class="col-sm-2 col-form-label">Título</label>
           <div class="col-sm-10">
             <input type="text" class="form-control backInputTec47 text-left" id="inputTitulo"
               [(ngModel)]="noticia.titulo" name="titulo">
@@ -68,7 +68,7 @@
         </div>
 
         <div class="form-group row text-center mt-4">
-          <label for="inputSubtitulo" class="col-sm-2 col-form-label">Subtíttulo</label>
+          <label for="inputSubtitulo" class="col-sm-2 col-form-label">Subtítulo</label>
           <div class="col-sm-10">
             <input type="text" class="form-control backInputTec47 text-left" id="inputSubtitulo"
               [(ngModel)]="noticia.subtitulo" name="subtitulo">
@@ -84,7 +84,7 @@
         </div>
         <fieldset disabled>
           <div class="form-group row text-center mt-4 animated fadeInUp">
-            <label for="inputImg" class="col-sm-2 col-form-label">Imagen Noticia</label>
+            <label for="inputImg" class="col-sm-2 col-form-label">Imagen Libro</label>
             <div class="col-sm-10">
               <input type="text" class="form-control backInputTec47" id="inputImg"
                 placeholder="{{imagenNoticiaSubir.name}}">
@@ -146,7 +146,7 @@
 
         <div class="container48">
           <button type="submit" class="btn btn-warning btn-block rounded-0 mt-2 text-uppercase">
-            Crear Noticia
+            Subir Libro
           </button>
           <button (click)="salirNoticia()" type="button"
             class="btn btn-warning btn-block rounded-0 mt-2 text-uppercase">
