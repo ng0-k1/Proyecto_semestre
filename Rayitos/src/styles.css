@@ -1,0 +1,390 @@
+
+@import '~animate.css/animate.min.css';
+
+body {
+  background-image: url(../src/assets/img/background.png);
+  margin-top: 100px;
+  margin-bottom: 110px;
+  min-height: 500px;
+  
+}
+
+html {
+  font-size: 13px;
+}
+
+.fa-whatsapp {
+  color: #25D366;
+ }
+ .fa-facebook {
+  color: #3b5998;
+ }
+ .fa-envelope {
+  color: orangered !important;
+ }
+ .fa-linkedin-in {
+  color: #0e76a8;
+ }
+ .fa-instagram {
+  color: #C13584 !important;
+ }
+ .fa-twitter {
+  color: #00acee;
+ }
+
+
+.badge-warning {
+  background-color: whitesmoke !important;
+}
+
+.btn-outline-warning {
+  border-color: whitesmoke !important;
+}
+
+.btn-outline-warning:hover {
+  background-color: rgb(219, 223, 241) !important;
+}
+
+.active {
+  background-color: rgba(46, 46, 46, 0.5);
+  font-weight: 620;
+}
+
+.mt-n1 {
+  margin-top: -1.2rem !important;
+}
+
+.btn-warning {
+  background-color: rgb(255, 255, 255)  !important;
+  color: black !important;
+  font-weight: 620;
+}
+
+.btn-warning:hover {
+  background-color: rgb(255, 255, 255) !important;
+  font-weight: 680;
+}
+
+.tooltip-inner {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  color: bisque !important;
+}
+
+.form-control:focus {
+  border-color: rgb(214, 16, 82) !important;
+  box-shadow: 0 0 0 0.2rem rgba(241, 241, 240, 0.25) !important
+}
+
+/* Relleno del boton de paginas del apartado de libro*/
+.badge-pill {
+  padding: 8px;
+  border: 2px solid rgb(52, 160, 142);
+  background-color: rgb(0, 0, 0) !important;
+}
+
+/*Relleno del boton al seleccionarse */
+.badge-pill:hover {
+  padding: 8px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0)!important;
+}
+
+/* Selección del color de fondo del navbar externo */
+.colorBody1 {
+  background-color: rgb(10, 10, 10) !important;
+  border: 2px solid rgb(0, 0, 0) !important;
+}
+
+/*  Color del navbar interno */
+.colorNavbar2 {
+  
+  border: 2px solid whitesmoke;
+  border-radius: 2px;
+  margin: 5px;
+  padding: 0px;
+}
+
+/* Colores del texto del navbar */
+.colorName3 {
+  color: rgb(253, 253, 253) !important;
+}
+
+/*  Color de Rayito Bibliografico  */
+.colorName4 {
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 2px 2px 4px rgb(11, 26, 245);
+}
+
+.margin5 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.RayitoBibliografico6{
+  font-size: 20px !important;
+}
+
+.cursor7 {
+  cursor: pointer;
+}
+
+
+
+.back9 {
+  background-color: rgb(136, 30, 30) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.colorTexto10 {
+  color: rgb(194, 194, 194);
+}
+
+.colorModal11 {
+  background-image: url('./assets/img/navfoo.jpg');
+  border: 2px solid rgba(36, 160, 209, 0.288);
+  border-radius: 2px;
+  padding: 20px !important;
+}
+
+.backModal12 {
+  background-image: url('./assets/img/navfoo.jpg');
+  color: white !important;
+  border: 10px inset white;
+}
+
+.backContacto13 {
+  background-color: rgb(0, 0, 0) !important;
+  border: 1px solid rgb(255, 255, 252);
+}
+
+.backInput14 {
+  background-color: rgb(0, 0, 0) !important;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(194, 194, 194) !important;
+  text-align: left;
+}
+
+.backInput15 {
+  background-image: url('./assets/img/fondo2.jpg');
+  border: 1px solid white;
+  color: white !important;
+  text-align: center;
+}
+
+.colorNegro16 {
+  /* En producción dejadlo transparente */
+  color: whitesmoke;
+}
+
+.backInput17 {
+  background-image: url('./assets/img/navfoo.jpg');
+  border: 1px solid white;
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+}
+
+.backPortada18 {
+  background-color: rgba(47, 115, 170, 0.212) !important;
+  color: rgb(255, 255, 255);
+  border: 10px inset rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.backSobreMi19 {
+  background-image: url('./assets/img/fondo2.jpg');
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.padin20 {
+  padding: 5px;
+  border: 2px solid rgba(255, 255, 0, 0.030);
+}
+
+.backYo21 {
+  border: 5px solid rgba(0, 0, 0, 0);
+}
+
+.backTitulo22 {
+  background-color: rgba(17, 17, 13, 0.212) !important;
+  color: white;
+  
+}
+
+.backTec23 {
+  background-color: rgba(47, 115, 170, 0.212) !important;
+  border: 3px groove white;
+}
+
+.tamanoTec24 {
+  width: 30px;
+  height: 30px;
+}
+
+.tamanoTec24:hover {
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.colorTec25 {
+  background-color: rgba(255, 255, 0, 0.070)  !important;
+  color: rgb(255, 255, 255);
+}
+
+.tamanoSalir26 {
+  width: 25% !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.tab27 {
+  text-indent: 1.5em !important;
+}
+
+.backUltimas28 {
+  background-color: rgba(47, 115, 170, 0.212) !important;
+  color: white;
+  border: 4px inset white;
+ 
+  
+}
+
+.tamanoYo29 {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 767px) {
+  .tamanoYo29 {
+  width: 30px;
+  height: 30px;
+ }
+ .colorNoti31, .font-weight-normal {
+  font-size: 12px !important;
+}
+}
+
+.backImgNoti30 {
+  
+  border: 1px solid rgba(0, 38, 255, 0.3);
+}
+
+.colorNoti31 {
+  color:white;
+  font-size: 12.5px;
+}
+
+.backNoti32 {
+  background-image: url('./assets/img/fondo2.jpg');
+  border: 4px double rgb(255, 255, 255);
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.backNoti32:hover {
+  background-image: url('./assets/img/fondo3.jpg');
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.backTituloNoti33 {
+  background-color: rgba(128, 126, 126, 0.24);
+  color: rgb(158, 135, 151);
+}
+
+/*  Fondo de la pagina de noticias donde se muestran los libros populares y el tipo de texto que tiene
+Si se da click dentro de este se observa un boton de regresar, este tomara el color: que definimos como Blanco
+ademas el border: es el borde de esta sección */
+.backPaginaNoticias34 {
+  background-color: rgba(47, 115, 170, 0.212) !important;
+  color: white;
+  border: 10px inset white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*  Este es el fondo que tomara toma el marco de las notas  */
+.backNoticias35 {
+  background-image: url('./assets/img/fondo2.jpg');
+  border: 4px double rgb(255, 255, 255);
+  border-radius: 2px;
+  padding: 10px !important;
+}
+
+/*  Aquí se define el color cuando pasamos el mouse por encima  */
+.backNoticias35:hover {
+  background-image: url('./assets/img/fondo3.jpg');
+  border: 5px solid rgb(255, 255, 255);
+}
+
+/*Fondo del titulo de las notas 
+el color le da el color del texto de titulo
+y el border le da el resaltado al texto (lo dejo en negro porque se me hizo feo*/
+.backNoticias36 {
+  background-color: rgba(59, 80, 65, 0.212) !important;
+  color: rgb(255, 255, 255);
+  border: 2px inset black;
+  font-size: 12.5px;
+}
+
+.backPlus37 {
+  color: black !important;
+}
+
+.backPlus38 {
+  background-color: rgba(200, 255, 0, 0.212)  ;
+  border: 2px solid #ffc107(250, 246, 37);
+}
+
+.sub39 {
+  font-size: 12.3px;
+}
+
+.colorTexto40 {
+  color: rgb(255, 255, 254);
+}
+
+.backNoticiaCompleta41 {
+  background-image: url('./assets/img/fondo2.jpg');
+  border: 2px solid rgba(255, 239, 8, 0.1);
+  border-radius: 2px;
+  padding: 20px !important;
+}
+
+.backNoticiaCompleta42 {
+  background-color: rgba(47, 115, 170, 0.212) !important;
+  color: rgb(255, 255, 255);
+  border: 3px inset rgb(255, 255, 255);
+
+}
+
+.backPaginaNoticiaCompleta43 {
+  background-color: rgba(47, 115, 170, 0.212) !important;
+  color: rgb(255, 255, 255);
+  border: 4px inset rgb(255, 255, 255);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.backMensajes44 {
+  background-image: url('./assets/img/fondo2.jpg');
+  border: 4px solid rgba(255, 255, 255, 0.836);
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.backInputTec47 {
+  background-image: url('./assets/img/navfoo.jpg');
+  border: 1px solid rgba(255, 255, 255, 0.212);
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+}
+
+.container48 {
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+}
+
+.backCookies49 {
+  background-image: url('./assets/img/navfoo.jpg');
+  border: 5px solid rgba(255, 255, 255, 0.884);
+}
