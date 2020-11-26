@@ -43,7 +43,7 @@ let mongoDB: string;
 if (process.env.NODE_ENV === 'production') {
     mongoDB = 'mongodb+srv://Rayito:PR0b4nd0@proyectosemestre.jxgha.mongodb.net/Rayito'
 } else {
-    //mongoDB = 'mongodb://localhost:27017/Rayito'
+    mongoDB = 'mongodb://localhost:27017/Rayito'
 }
 mongoose.connect(
     mongoDB,
