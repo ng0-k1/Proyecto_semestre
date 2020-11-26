@@ -28,6 +28,8 @@ Angular 9 o superior
 MongoDB
 Roboto
 NodeJs
+Tener una cuenta en Heroku
+Tener una cuenta en Mongo Atlas
 ```
 
 
@@ -40,7 +42,8 @@ NodeJs
 * [Heroku](https://heroku.com/) - Despliegue del servidor 
 * [Mongo Atlas](https://www.mongodb.com/cloud/atlas) - Despliegue base de datos en linea
 
-
+# Agradecimientos 🥳
+* [Elejandria](https://www.elejandria.com/) - Gracias por facilitarnos sus libros y enlaces de redirección para este proyecto libre y modificable
 
 ## Expresiones de Gratitud si deseas usar este repositorio 🎁
 
